@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #a0bad1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    ;
+}
+
+main {
+    padding: 1rem;
+    width: 23rem;
+    background: white;
+    margin-top: .8rem;
+}
+
+main, .berg {
+    margin: 0;
+    
+}
+.berg {
+    background-color:#6a96d8;
+    height: 4rem;
+    color: white;
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+
+}
+#hd{
+    display: flex;
+    align-items: center;
+}
+.dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.mark {
+    margin-left: 1rem;
+}
+
+.X {
+    color: #d1d9f2;
+}
+
+.X:hover {
+    color: white ;
+    cursor: pointer;
+}
+
+.line{
+    display: flex;
+    height: 1px;
+    color: hsl(30deg 5% 92%);
+    background-color: hsl(30deg 5% 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.today {
+    background-color: white;
+    color: hsl(30deg 5% 92%);
+}
+
+.made, .send {
+    font-size: 0.9rem;
+}
+
+.App {
+    display: flex;
+    background-color: hsl(214deg 47% 93%);
+    border-radius: 1px;
+    height: 3rem;
+    width: 18rem;
+}
+
+.timee {
+    color: hsl(36deg 5% 81%);
+}
+
+.time, .tim {
+    color: hsl(36deg 5% 81%);
+}
+.time, .year {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+
+.year {
+    background-color: hsl(0deg 0% 95%);
+    height: 3rem;
+    width: 16rem;
+    margin-left: 5rem;
+}
+
+.marke {
+    background-color: hsl(214deg 47% 93%);
+    height: 2rem;
+    width: 5rem;
+}
+
+.blocked {
+    background-color: hsl(1deg 75% 86%);
+    display: flex;
+    justify-content: flex-end;
+    height: 2rem;
+    width: 13rem;
+    margin-left: 8rem;
+}
+
+.line2 {
+    background-color: hsl(30deg 5% 92%);
+    height: 1px; 
+}
+
+.enter input {
+    outline: none;
+    border: none;
+    font-size: 15px;
+    bottom: 1rem;
+}
+
+.sen {
+    color: hsl(215deg 59% 65%);
+
+}
+
+.enter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    border-top: 1px hsl(30deg 5% 92%) solid;
+}
+
+.triangle-m{
+  width: 0;
+  border-top: 0.5rem solid #e3eaf5;
+  border-left: 0.9rem solid transparent;
+  margin-bottom: 2.5rem;
+}
+
+.angle {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.but-mark {
+    margin-top: 1rem;
+}
